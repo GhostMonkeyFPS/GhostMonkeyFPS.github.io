@@ -16480,25 +16480,3 @@ return jQuery;
   bunker(bootstrap);
 
 }());
-
-$(document).ready(function () {
-    loadIntro();
-    initMarkdown();
-});
-
-function loadIntro() {
-    $('.content').load('markdown/intro.html');
-}
-
-function initMarkdown() {
-
-}
-
-$(document).ready(function () {
-    initFooterDate();
-})
-
-function initFooterDate() {
-    $('.date').html(new Date().getFullYear());
-}
-
